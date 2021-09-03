@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Assignment-20</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#"><img src="../Assignment-20/header.png" alt="header"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">My Resume</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="text" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item active" aria-current="page">Home</li>
+                        </ol>
+                    </nav>
+
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Library</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-xl-4">
+
+                    <!-- Note a custom script is used to activate toasts:
+$('.toast').toast();
+-->
+
+                    <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="toast-header">
+                            <strong class="mr-auto">Bootstrap</strong>
+                            <small>11 mins ago</small>
+
+                        </div>
+                        <div class="toast-body">
+                            Hello, world! This is a toast message.
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100"
+                            data-src="holder.js/900x300?auto=yes&amp;bg=777&amp;fg=555&amp;text=First slide"
+                            alt="First slide [900x300]" src="../Assignment-20/banner.jpg" data-holder-rendered="true">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>First slide label</h3>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            data-src="holder.js/600x300?auto=yes&amp;bg=666&amp;fg=444&amp;text=Second slide"
+                            alt="Second slide [600x300]" src="../Assignment-20/banner.jpg" data-holder-rendered="true">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Second slide label</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="alert alert-success" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="alert-heading">Well done!</h4>
+                        You successfully read this important alert message.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 10%"
+                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress mt-1">
+                        <div class="progress-bar progress-bar-striped bg-secondary" role="progressbar"
+                            style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress mt-1">
+                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 30%"
+                            aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress mt-1">
+                        <div class="progress-bar progress-bar-striped bg-light" role="progressbar" style="width: 40%"
+                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress mt-1">
+                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%"
+                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress mt-1">
+                        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 60%"
+                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress mt-1">
+                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 70%"
+                            aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <div class="progress mt-1">
+                        <div class="progress-bar progress-bar-striped bg-dark" role="progressbar" style="width: 80%"
+                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                </div>
+                <div class="col-xl-6">
+                    <div id="accordion" role="tablist">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" href="#collapseOne" aria-expanded="false"
+                                        aria-controls="collapseOne" class="collapsed">
+                                        Collapsible Group Item #1
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne"
+                                style="">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        Collapsible Group Item #2
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo"
+                                style="">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        Collapsible Group Item #3
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo"
+                                style="">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+                        click here to learn more things
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModal3Label" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModal3Label">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nam ex dolorum
+                                        id nulla, minus vero error illo sapiente ipsam rem in debitis iusto ipsum at
+                                        atque facere. Adipisci tempore distinctio, iste modi eaque ratione vero eos
+                                        dicta cupiditate odio exercitationem fuga maxime, nesciunt aut qui. Placeat
+                                        harum velit quisquam porro rem possimus, eligendi aliquam? Unde dolorum
+                                        consequuntur repudiandae eveniet odit animi voluptas excepturi?</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7">
+                    <!-- Note: A custom script is used to activate tooltips:
+
+$(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+-->
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title=""
+                        data-original-title="Tooltip on top"> Tooltip on top
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right"
+                        title="" data-original-title="Tooltip on right"> Tooltip on right
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
+                        title="" data-original-title="Tooltip on bottom"> Tooltip on bottom
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title=""
+                        data-original-title="Tooltip on left"> Tooltip on left
+                    </button>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+
+
+                    <!-- Actual scrollspy markup: -->
+                    <nav id="navbar-example2" class="navbar navbar-light bg-light">
+                        <h3 class="navbar-brand">Project Name</h3>
+                        <ul class="nav nav-pills">
+                            <li class="nav-item"><a class="nav-link active" href="#verse1">Verse 1</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#verse2">Verse 2</a></li>
+                        </ul>
+                    </nav>
+                    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example">
+                        <h4 id="verse1">Verse 1</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum expedita molestiae commodi
+                            aliquid quaerat numquam fugit id autem officia quae rem, incidunt aperiam pariatur in
+                            consequatur dignissimos consequuntur architecto, repellat veniam mollitia. Ipsam, esse
+                            consectetur. <br><br>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit repellat aut, consequatur
+                            modi earum quas laudantium labore numquam nobis libero mollitia tempore soluta ab beatae
+                            dignissimos, provident quibusdam, qui laborum? <br><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad laboriosam iste natus, nostrum
+                            similique impedit.
+                        </p>
+                        <h4 id="verse2">Verse 2</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni nesciunt saepe, cumque autem
+                            at architecto? Tenetur corporis quisquam distinctio vitae! Consectetur incidunt fugit
+                            accusamus, repellendus eveniet aspernatur ipsam a eligendi excepturi, quaerat aliquid magnam
+                            laudantium! <br> <br>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa itaque doloremque veniam
+                            nostrum. Aliquam, sint deleniti. Asperiores voluptas, odit autem iure nobis dolorem tempora
+                            odio? Quo dolor nemo beatae labore! <br><br>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque repellendus quos dolores
+                            optio, autem eveniet!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4"></div>
+                <div class="col-xl-4">
+                    <nav aria-label="...">
+                        <ul class="pagination">
+                          <li class="page-item disabled">
+                            <a class="page-link" href="#!" tabindex="-1">Previous</a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#!">1</a></li>
+                          <li class="page-item active">
+                            <a class="page-link" href="#!">2 <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#!">Next</a>
+                          </li>
+                        </ul>
+                      </nav>
+                      
+                </div>
+                <div class="col-xl-4">
+                    <div class="btn-group dropup">
+                        <button type="button" class="btn btn-secondary">
+                            dropdown
+                        </button>
+                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>&copy; All right reserved design by LFWF</span>
+    </footer>
+    <!-- Optional JavaScript -->
+    <script src="../Assignment-20/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

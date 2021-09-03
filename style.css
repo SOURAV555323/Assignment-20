@@ -1,0 +1,29 @@
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+header{
+    height: 76px;
+
+}
+.navbar-brand{
+    height: 60px;
+}
+.navbar{
+
+}
+
+
+.scrollspy-example {
+    position: relative;
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+footer{
+    text-align: center;
+    background-color: #17a2b8;
+    color: white;
+    padding: 20px 0;
+}
+ 
